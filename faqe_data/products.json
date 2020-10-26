@@ -1,0 +1,35 @@
+[
+{
+    "product_id":43895788012221,
+    "title":"Title1",
+    "handle":"mignon-pingouin-en-peluche",
+    "published_at":"2020-01-23T11:00:52+01:00",
+    "created_at":"2020-01-23T11:00:52+01:00",
+    "updated_at":"2020-01-23T11:03:05+01:00",
+    "vendor":"Boutique Maman",
+    "store" : "5e2acd0458929004e0fa71bd"
+   
+},
+{
+    "product_id":43895788012222,
+    "title":"Title2",
+    "handle":"mignon-pingouin-en-peluche",
+    "published_at":"2020-01-23T11:00:52+01:00",
+    "created_at":"2020-01-23T11:00:52+01:00",
+    "updated_at":"2020-01-23T11:03:05+01:00",
+    "vendor":"Boutique Maman",
+    "store" : "5e2acd0458929004e0fa71c0"
+   
+},
+{
+    "product_id":43895788012223,
+    "title":"Title3",
+    "handle":"mignon-pingouin-en-peluche",
+    "published_at":"2020-01-23T11:00:52+01:00",
+    "created_at":"2020-01-23T11:00:52+01:00",
+    "updated_at":"2020-01-23T11:03:05+01:00",
+    "vendor":"Boutique Maman",
+    "store" : "5e2acd0458929004e0fa71bf"
+   
+}
+]
