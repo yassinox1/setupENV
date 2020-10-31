@@ -25,7 +25,6 @@ app.use(express.json());
 app.use(cookieParser());
 
 // Dev logging middleware
-// eslint-disable-next-line no-undef
 if(process.env.NODE_ENV === 'development'){
   app.use(morgan('dev')); 
 }
@@ -36,15 +35,12 @@ app.use('/api/v1/auth',auth);
 
 app.use(errorHandler);
 
-// eslint-disable-next-line no-undef
 const PORT = process.env.PORT || 5000;
 
  
 
 app.listen( 
   PORT,
-  // eslint-disable-next-line no-console
-  // eslint-disable-next-line no-undef
   console.log(`server Running in ${process.env.NODE_ENV} on PORT ${PORT}`.yellow.bold)
 );
 

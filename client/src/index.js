@@ -1,18 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {BrowserRouter as Router} from 'react-router-dom'
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import configureStore from './redux/configureStore';
-import {Provider as ReduxProvider} from 'react-redux';
- 
-const store = configureStore();  
+import App from "./App";
+
 ReactDOM.render(
-    <ReduxProvider store = {store}>
-        <Router>
-        <   App />
-        </Router>
-    </ReduxProvider>
-    , document.getElementById('root'));
-    
+  <App />,
+
+  document.getElementById("root")
+);
